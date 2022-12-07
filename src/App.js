@@ -2,21 +2,28 @@ import logo from './logo.svg';
 import './App.css';
 
 function Header() {
-  return (
-    <div>
-        <img src={logo} className="App-logo" alt="logo" width="300px"/>
-        <h1>Hello World</h1>
-    </div>
-  )
+    return (
+        <nav className="nav">
+            <img src={logo} className="App-logo" alt="logo" width="200px"/>
+            <ul className="nav-items">
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    );
 }
 function Body() {
     return (
-        <ul>
-            <li>This is coding with React</li>
-            <li>Learning through Scrimba</li>
-            <li>Using v 18 locally</li>
-            <li>Putting different elements into Page component</li>
-        </ul>
+        <div>
+            <h1>Hello World</h1>
+            <ul className="body-list">
+                <li>This is coding with React</li>
+                <li>Learning through Scrimba</li>
+                <li>Using v 18 locally</li>
+                <li>Putting different elements into Page component</li>
+            </ul>
+        </div>
     );
 }
 function Page() {
