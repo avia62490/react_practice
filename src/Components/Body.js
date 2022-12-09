@@ -1,8 +1,10 @@
+// import logo2 from '../Images/reactjs-icon.png'
+
 export default function Body() {
   return (
-      <div>
-          <h1>Hello World!</h1>
-          <ul className="body-list">
+      <div className="body" >
+          <h1 className="body--title">Hello World!</h1>
+          <ul className="body--list">
               <li>This is coding with React</li>
               <li>Learning through Scrimba</li>
               <li>Using v 18 locally</li>

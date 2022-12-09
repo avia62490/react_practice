@@ -1,5 +1,9 @@
+
+
 .App {
   text-align: center;
+  background-color: #bd7947;
+  height: 100vh;
 }
 
 .App-logo {
@@ -36,8 +40,33 @@
   }
 }
 
-.body-list {
+.body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-image: url(./Images/reactjs-icon2.png);
+  background-repeat: no-repeat;
+  background-position: right 120%;
+}
+
+.body--title {
+  font-size: 50px ;
+}
+
+.body--list {
   text-align: left;
+  font-weight: 400;
+  font-size: 20px ;
+}
+
+.body--list > li {
+  padding-block: 10px;
+}
+
+.body--list > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
 
 .nav {
@@ -49,16 +78,14 @@
   padding: 30px 25px;
 }
 
-nav > h3, nav > h4 {
-  margin: 0;
-}
-
-nav > h3 {
+.nav--logo_text {
   margin-right: auto;
   color: #61DAFB;
+  font-size: 30px;
 }
 
-nav > h4 {
+.nav--title{
   color: #DEEBF8;
+  font-size: 20px;
 }
 
