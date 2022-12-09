@@ -1,9 +1,7 @@
-// import './App.css';
-
 export default function Body() {
   return (
       <div>
-          <h1>Hello World</h1>
+          <h1>Hello World!</h1>
           <ul className="body-list">
               <li>This is coding with React</li>
               <li>Learning through Scrimba</li>
